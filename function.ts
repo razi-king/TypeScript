@@ -67,4 +67,11 @@ let nameVal = (name:string):string =>{
     return name; 
 }
 nameVal("Razi");
-console.log("The Value Of The Name Is : ",nameVal);
+console.log("The Value Of The Name Is : ",nameVal("Razi")); // I Have To Find The Logic Behind This Code
+
+const heros = ["IronMan","SkatiMaan","SuperMan","BenTen","LuckyMan"]
+
+heros.map((hero):string=>{
+    return `Hero Is ${hero}`
+})
+
