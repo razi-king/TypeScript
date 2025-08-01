@@ -74,3 +74,4 @@ function getSeatAllot(seatClass:"Business"|"Economy"){
 }
 getSeatAllot(seatClass)
 getSeatAllot("Economy")
+export{}
